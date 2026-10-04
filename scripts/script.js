@@ -2,7 +2,7 @@ import { deleteSong } from "./delete.js";
 
 addEventListener("DOMContentLoaded", async function () {
   const response = await fetch(
-    "https://sdev200-module05-backend.onrender.com/api/songs",
+    "https://mod6tutbackend.onrender.com/api/songs",
   );
 //   const response = await fetch("http://localhost:3000/api/songs");
 //   const songs = await response.json();
