@@ -4,7 +4,7 @@ addEventListener("DOMContentLoaded", async function () {
   const songID = urlparam.get("id");
   //const response = await fetch("http://localhost:3000/api/songs/" + songID);
   const response = await fetch(
-    "https://sdev200-module05-backend.onrender.com/api/songs/" + songID,
+    "https://mod6tutbackend.onrender.com/api/songs/" + songID,
   );
   console.log(response);
   if (response.ok) {
