@@ -13,7 +13,7 @@ async function addSong() {
       : [],
   };
   const response = await fetch(
-    "https://sdev200-module05-backend.onrender.com/api/songs",
+    "https://mod6tutbackend.onrender.com/api/songs",
     {
       // Local fetch const response. Uncomment for testing.
       // const response = await fetch("http://localhost:3000/api/songs", {
